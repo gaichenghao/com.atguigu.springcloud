@@ -12,7 +12,7 @@
         INSERT INTO payment(SERIAL) VALUES(#{serial});
     </insert>
 
-    <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap" >
+    <select id="getPaymentId" parameterType="Long" resultMap="BaseResultMap" >
         SELECT * FROM payment WHERE id=#{id};
     </select>
 
