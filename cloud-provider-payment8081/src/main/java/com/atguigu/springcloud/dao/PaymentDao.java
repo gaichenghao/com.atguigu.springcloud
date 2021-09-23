@@ -11,6 +11,6 @@ public interface PaymentDao {
 
     public int create(Payment payment);
 
-    public Payment getPayMentId(@Param("id") Long id);
+    public Payment getPaymentId(@Param("id") Long id);
 
 }
